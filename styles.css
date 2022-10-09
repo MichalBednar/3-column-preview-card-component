@@ -12,7 +12,7 @@ body {
   background-color: hsl(0deg, 0%, 95%);
 }
 
-main {
+.container {
   margin: 6rem 0;
   display: flex;
   justify-content: center;
@@ -23,25 +23,25 @@ main {
   overflow: hidden;
 }
 
-article {
+.section {
   padding: 0 2.5rem 2.5rem;
 }
-article img {
+.section img {
   margin-top: 3rem;
 }
-article h1 {
+.section h2 {
   color: hsl(0deg, 0%, 95%);
   margin-top: 2rem;
   font-size: 2rem;
   font-family: "Big Shoulders Display";
 }
-article p {
+.section p {
   margin-top: 1.5rem;
   color: hsla(0deg, 0%, 100%, 0.75);
   font-size: 15px;
   font-family: "Lexend Deca";
 }
-article button {
+.section button {
   margin-top: 1.5rem;
   width: 8rem;
   padding: 0.5rem 0.5rem 0.6rem;
@@ -51,7 +51,7 @@ article button {
   border: 3px solid hsl(0deg, 0%, 95%);
   transition: 0.4s;
 }
-article button:hover {
+.section button:hover {
   color: hsl(0deg, 0%, 95%);
 }
 
@@ -86,14 +86,14 @@ article button:hover {
 }
 
 @media (min-width: 950px) {
-  main {
+  .container {
     flex-direction: row;
     width: 850px;
   }
-  article {
+  .section {
     height: 27rem;
   }
-  article button {
+  .section button {
     margin-top: 5rem;
   }
 }/*# sourceMappingURL=styles.css.map */

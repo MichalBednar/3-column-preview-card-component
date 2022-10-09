@@ -22,7 +22,7 @@ body {
     background-color: $light-grey
 }
 
-main {
+.container {
     margin: 6rem 0;
     @include flex;
     flex-direction: column;
@@ -31,13 +31,13 @@ main {
     overflow: hidden;
 }
 
-article {
+.section {
     padding: 0 2.5rem 2.5rem;
     img {
         margin-top: 3rem;
     }
 
-    h1 {
+    h2 {
         color: $light-grey;
         margin-top: 2rem;
         font: {
@@ -102,12 +102,12 @@ article {
 }
 
 @media (min-width:950px) {
-    main {
+    .container {
         flex-direction: row;
         width: 850px;
     }
 
-    article {
+    .section {
         height: 27rem;
         button {
             margin-top: 5rem;
